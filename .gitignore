@@ -1,0 +1,4 @@
+.env
+requirments.txt
+*sqlite3
+templates
