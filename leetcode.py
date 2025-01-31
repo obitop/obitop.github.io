@@ -1,0 +1,7 @@
+
+
+#
+#
+#
+
+print(leet(s,numRows))
