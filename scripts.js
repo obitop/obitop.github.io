@@ -1,14 +1,18 @@
 const num = document.getElementById("number")
 const fahr = document.getElementById("fahr")
 const cele = document.getElementById("cele")
-const result = document.getElementById("result")
+result = document.getElementById("result")
     
 
 function convert(){
     if (fahr.checked){
-
+        temp = Number(num.value)
+        temp = temp * 9/5 + 32
+        result.textContent = temp + " fahrenheit"
     }
-    if (cele.checked){
-        
+    else if (cele.checked){
+        temp = Number(num.value)
+        temp = temp -32 * 5/9
+        result.textContent = temp + " celesius"
     }
 }
