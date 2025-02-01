@@ -1,6 +1,6 @@
 const num = document.getElementById("number")
-const fahr = document.getElementById("fahr")
-const cele = document.getElementById("cele")
+fahr = document.getElementById("fahr")
+cele = document.getElementById("cele")
 result = document.getElementById("result")
 
 fahr.textContent = "celesius -> fahr"
