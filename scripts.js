@@ -12,7 +12,7 @@ function convert() {
     }
     else if (cele.checked) {
         temp = Number(num.value)
-        temp = temp - 32 * 5 / 9
+        temp = (temp - 32) * (5 / 9)
         result.textContent = temp + " celesius"
     }
 }
