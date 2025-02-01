@@ -8,11 +8,11 @@ function convert() {
     if (fahr.checked) {
         temp = Number(num.value)
         temp = temp * 9 / 5 + 32
-        result.textContent = temp + " fahrenheit"
+        result.textContent = parseFloat(temp.toFixed(3)) + " fahrenheit"
     }
     else if (cele.checked) {
         temp = Number(num.value)
         temp = (temp - 32) * (5 / 9)
-        result.textContent = temp + " celesius"
+        result.textContent = parseFloat(temp.toFixed(3)) + " celesius"
     }
 }
