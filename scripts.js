@@ -3,8 +3,6 @@ fahr = document.getElementById("fahr")
 cele = document.getElementById("cele")
 result = document.getElementById("result")
 
-fahr.textContent = "celesius -> fahr"
-cele.textContent = "fahr -> celesius"
 
 function convert() {
     if (fahr.checked) {
